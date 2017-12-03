@@ -1,8 +1,10 @@
 # testePagamento
 Testes de API de pagamento
 
-Instruções
+Instruções:
+
 1- Rodar o bundle install
+
 2- Os resultados dos testes podem ser visualizados de algumas formas diferentes:
     - JUnit: Executar o comando 'rspec --format RspecJunitFormatter --out rspec.xml'
     - HTML: Executar o comando 'rspec --format html --out rspec_results.html'
