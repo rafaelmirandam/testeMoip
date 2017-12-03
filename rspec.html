@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="rspec" tests="20" skipped="0" failures="1" errors="0" time="34.501472" timestamp="2017-12-03T17:22:16-02:00" hostname="MTZNOTFS-FCAMARA1100">
+<properties>
+<property name="seed" value="183"/>
+</properties>
+<testcase classname="spec.cartao.cartao_delete_spec" name="Delete /fundinginstruments/ status 200: deletar um cartão" file="./spec/cartao/cartao_delete_spec.rb" time="0.759742"></testcase>
+<testcase classname="spec.cartao.cartao_post_spec" name="Post /customers/id/fundinginstruments status 200: cadastrar novo cartao" file="./spec/cartao/cartao_post_spec.rb" time="0.822742"></testcase>
+<testcase classname="spec.cartao.cartao_post_spec" name="Post /customers/id/fundinginstruments status 4xx: cartão sem portador" file="./spec/cartao/cartao_post_spec.rb" time="0.797402"></testcase>
+<testcase classname="spec.cartao.cartao_post_spec" name="Post /customers/id/fundinginstruments status 4xx: cartão com cpf invalido" file="./spec/cartao/cartao_post_spec.rb" time="0.779674"></testcase>
+<testcase classname="spec.cliente.cliente_get_list_spec" name="Get /customers status 200: listar clientes" file="./spec/cliente/cliente_get_list_spec.rb" time="1.815097"></testcase>
+<testcase classname="spec.cliente.cliente_get_unique_spec" name="Get /customers status 200: buscar um cliente" file="./spec/cliente/cliente_get_unique_spec.rb" time="0.765157"></testcase>
+<testcase classname="spec.cliente.cliente_get_unique_spec" name="Get /customers status 404: id do cliente nao existe" file="./spec/cliente/cliente_get_unique_spec.rb" time="0.807538"></testcase>
+<testcase classname="spec.cliente.cliente_post_spec" name="Post /customers status 200: cadastrar novo cliente" file="./spec/cliente/cliente_post_spec.rb" time="0.779606"></testcase>
+<testcase classname="spec.cliente.cliente_post_spec" name="Post /customers status 4xx: cliente sem identificador" file="./spec/cliente/cliente_post_spec.rb" time="0.748302"></testcase>
+<testcase classname="spec.cliente.cliente_post_spec" name="Post /customers status 4xx: cliente sem nome" file="./spec/cliente/cliente_post_spec.rb" time="0.739420"></testcase>
+<testcase classname="spec.cliente.cliente_post_spec" name="Post /customers status 4xx: cliente com email invalido" file="./spec/cliente/cliente_post_spec.rb" time="0.807007"></testcase>
+<testcase classname="spec.pagamento.pagamento_get_unique_spec" name="Get /payments status 200: buscar um pagamento" file="./spec/pagamento/pagamento_get_unique_spec.rb" time="0.840402"></testcase>
+<testcase classname="spec.pagamento.pagamento_get_unique_spec" name="Get /payments status 404: id do pagamento nao existe" file="./spec/pagamento/pagamento_get_unique_spec.rb" time="0.809408"></testcase>
+<testcase classname="spec.pagamento.pagamento_post_spec" name="Post /orders/id/payments status 200: cadastrar novo pagamento" file="./spec/pagamento/pagamento_post_spec.rb" time="2.639116"></testcase>
+<testcase classname="spec.pagamento.pagamento_post_spec" name="Post /orders/id/payments status 4xx: boleto com data invalida" file="./spec/pagamento/pagamento_post_spec.rb" time="0.763108"></testcase>
+<testcase classname="spec.pedido.pedido_get_list_spec" name="Get /orders status 200: listar pedidos" file="./spec/pedido/pedido_get_list_spec.rb" time="0.832759"></testcase>
+<testcase classname="spec.pedido.pedido_get_unique_spec" name="Get /orders status 200: buscar um pedido" file="./spec/pedido/pedido_get_unique_spec.rb" time="0.902077"></testcase>
+<testcase classname="spec.pedido.pedido_get_unique_spec" name="Get /orders status 404: id do pedido nao existe" file="./spec/pedido/pedido_get_unique_spec.rb" time="0.819176"><failure message="
+expected: &quot;resource not found&quot;
+     got: nil
+
+(compared using eql?)
+" type="RSpec::Expectations::ExpectationNotMetError">Failure/Error: expect(@result.parsed_response[&apos;error&apos;]).to eql &apos;resource not found&apos;
+
+  expected: &quot;resource not found&quot;
+       got: nil
+
+  (compared using eql?)
+./spec/pedido/pedido_get_unique_spec.rb:33:in `block (3 levels) in &lt;top (required)&gt;&apos;</failure></testcase>
+<testcase classname="spec.pedido.pedido_post_spec" name="Post /orders status 200: cadastrar novo pedido" file="./spec/pedido/pedido_post_spec.rb" time="0.898340"></testcase>
+<testcase classname="spec.pedido.pedido_post_spec" name="Post /orders status 4xx: pedido com produto sem nome" file="./spec/pedido/pedido_post_spec.rb" time="0.804557"></testcase>
+</testsuite>
