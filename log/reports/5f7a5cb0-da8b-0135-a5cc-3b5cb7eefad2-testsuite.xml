@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<ns2:test-suite xmlns="" xmlns:ns2="urn:model.allure.qatools.yandex.ru" start="1515846578568" stop="1515846579378">
+  <name>Get /payments status 200:</name>
+  <title>Get /payments status 200:</title>
+  <test-cases>
+    <test-case start="1515846578568" stop="1515846579375" status="passed">
+      <name>Get /payments status 200: buscar um pagamento</name>
+      <title>Get /payments status 200: buscar um pagamento</title>
+      <steps/>
+      <attachments/>
+      <labels>
+        <label name="thread" value="11336240"/>
+        <label name="host" value="DESKTOP-QGJMSTB"/>
+      </labels>
+      <parameters/>
+    </test-case>
+  </test-cases>
+  <labels>
+    <label name="thread" value="11336240"/>
+    <label name="host" value="DESKTOP-QGJMSTB"/>
+  </labels>
+</ns2:test-suite>

@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<ns2:test-suite xmlns="" xmlns:ns2="urn:model.allure.qatools.yandex.ru" start="1515846589254" stop="1515846590025">
+  <name>Post /orders status 4xx:</name>
+  <title>Post /orders status 4xx:</title>
+  <test-cases>
+    <test-case start="1515846589255" stop="1515846590022" status="passed">
+      <name>Post /orders status 4xx: pedido com produto sem nome</name>
+      <title>Post /orders status 4xx: pedido com produto sem nome</title>
+      <steps/>
+      <attachments/>
+      <labels>
+        <label name="thread" value="11336240"/>
+        <label name="host" value="DESKTOP-QGJMSTB"/>
+      </labels>
+      <parameters/>
+    </test-case>
+  </test-cases>
+  <labels>
+    <label name="thread" value="11336240"/>
+    <label name="host" value="DESKTOP-QGJMSTB"/>
+  </labels>
+</ns2:test-suite>

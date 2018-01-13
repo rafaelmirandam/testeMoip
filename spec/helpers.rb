@@ -262,7 +262,7 @@ module Helpers
             fundingInstrument: {
                 method: "BOLETO",
                 boleto: {
-                    expirationDate: '2017-12-15',
+                    expirationDate: '2018-12-15',
                     instructionLines: {
                         first: "first",
                         second: "second",

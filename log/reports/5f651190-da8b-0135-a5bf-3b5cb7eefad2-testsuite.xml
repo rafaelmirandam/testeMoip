@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<ns2:test-suite xmlns="" xmlns:ns2="urn:model.allure.qatools.yandex.ru" start="1515846564719" stop="1515846565561">
+  <name>Delete /fundinginstruments/ status 200:</name>
+  <title>Delete /fundinginstruments/ status 200:</title>
+  <test-cases>
+    <test-case start="1515846564719" stop="1515846565542" status="passed">
+      <name>Delete /fundinginstruments/ status 200: deletar um cart&#xE3;o</name>
+      <title>Delete /fundinginstruments/ status 200: deletar um cart&#xE3;o</title>
+      <steps/>
+      <attachments/>
+      <labels>
+        <label name="thread" value="11336240"/>
+        <label name="host" value="DESKTOP-QGJMSTB"/>
+      </labels>
+      <parameters/>
+    </test-case>
+  </test-cases>
+  <labels>
+    <label name="thread" value="11336240"/>
+    <label name="host" value="DESKTOP-QGJMSTB"/>
+  </labels>
+</ns2:test-suite>

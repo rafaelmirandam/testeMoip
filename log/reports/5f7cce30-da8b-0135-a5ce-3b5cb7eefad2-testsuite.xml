@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<ns2:test-suite xmlns="" xmlns:ns2="urn:model.allure.qatools.yandex.ru" start="1515846579379" stop="1515846580145">
+  <name>Get /payments status 404:</name>
+  <title>Get /payments status 404:</title>
+  <test-cases>
+    <test-case start="1515846579379" stop="1515846580143" status="passed">
+      <name>Get /payments status 404: id do pagamento nao existe</name>
+      <title>Get /payments status 404: id do pagamento nao existe</title>
+      <steps/>
+      <attachments/>
+      <labels>
+        <label name="thread" value="11336240"/>
+        <label name="host" value="DESKTOP-QGJMSTB"/>
+      </labels>
+      <parameters/>
+    </test-case>
+  </test-cases>
+  <labels>
+    <label name="thread" value="11336240"/>
+    <label name="host" value="DESKTOP-QGJMSTB"/>
+  </labels>
+</ns2:test-suite>

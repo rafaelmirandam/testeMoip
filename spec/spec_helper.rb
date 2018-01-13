@@ -1,5 +1,7 @@
 require 'httparty'
 require 'faker'
+require 'allure-rspec'
+require 'logger'
 require_relative 'helpers'
 
 RSpec.configure do |config|
@@ -14,7 +16,14 @@ RSpec.configure do |config|
 
   config.shared_context_metadata_behavior = :apply_to_host_groups
   config.include Helpers
+  config.include AllureRSpec::Adaptor
 
+end
+
+AllureRSpec.configure do |c|
+  c.output_dir = "log/reports" # default: gen/allure-results
+  c.clean_dir = true # clean the output directory first? (default: true)
+  c.logging_level = Logger::WARN # logging level (default: DEBUG)
 end
 
 class Moip

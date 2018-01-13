@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<ns2:test-suite xmlns="" xmlns:ns2="urn:model.allure.qatools.yandex.ru" start="1515846567461" stop="1515846568978">
+  <name>Post /customers/id/fundinginstruments status 4xx:</name>
+  <title>Post /customers/id/fundinginstruments status 4xx:</title>
+  <test-cases>
+    <test-case start="1515846567461" stop="1515846568224" status="passed">
+      <name>Post /customers/id/fundinginstruments status 4xx: cart&#xE3;o sem portador</name>
+      <title>Post /customers/id/fundinginstruments status 4xx: cart&#xE3;o sem portador</title>
+      <steps/>
+      <attachments/>
+      <labels>
+        <label name="thread" value="11336240"/>
+        <label name="host" value="DESKTOP-QGJMSTB"/>
+      </labels>
+      <parameters/>
+    </test-case>
+    <test-case start="1515846568227" stop="1515846568975" status="passed">
+      <name>Post /customers/id/fundinginstruments status 4xx: cart&#xE3;o com cpf invalido</name>
+      <title>Post /customers/id/fundinginstruments status 4xx: cart&#xE3;o com cpf invalido</title>
+      <steps/>
+      <attachments/>
+      <labels>
+        <label name="thread" value="11336240"/>
+        <label name="host" value="DESKTOP-QGJMSTB"/>
+      </labels>
+      <parameters/>
+    </test-case>
+  </test-cases>
+  <labels>
+    <label name="thread" value="11336240"/>
+    <label name="host" value="DESKTOP-QGJMSTB"/>
+  </labels>
+</ns2:test-suite>
